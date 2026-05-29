@@ -45,7 +45,7 @@ export default async function RankingParticipantesPage() {
         category={["RANKING", "PARTICIPANTES", "PERFORMANCE"]}
         pageCurrent={8}
         pageTotal={20}
-        switchHref="/acasaviews/ranking-audiencia"
+        switchHref="/ranking-audiencia"
         switchLabel="Ver audiência →"
       />
 
@@ -117,7 +117,7 @@ export default async function RankingParticipantesPage() {
       <RankingPageFooter
         tagline="QUEM PERFORMA, SOBE."
         ctaLabel="Ver a audiência"
-        ctaHref="/acasaviews/ranking-audiencia"
+        ctaHref="/ranking-audiencia"
         accent="magenta"
       />
     </div>

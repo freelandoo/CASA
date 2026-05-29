@@ -20,7 +20,7 @@ interface RankingLink {
 
 const LINKS: RankingLink[] = [
   {
-    href: "/acasaviews/ranking-audiencia",
+    href: "/ranking-audiencia",
     kicker: "o 9º jogador",
     title: "Ranking da Audiência",
     desc: "O público que mais move o jogo: teorias, comentários e engajamento ao vivo.",
@@ -28,7 +28,7 @@ const LINKS: RankingLink[] = [
     accent: "cyan",
   },
   {
-    href: "/acasaviews/ranking-participantes",
+    href: "/ranking-participantes",
     kicker: "performance",
     title: "Ranking dos Participantes",
     desc: "Quem domina a temporada dentro da casa. Atenção vira poder.",
