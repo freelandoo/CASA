@@ -7,6 +7,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://acasaviews.freelandoo.com.br"),
   title: "Studio Views | Hub Criativo de Conteúdo e Entretenimento",
   description:
     "Studio Views - Seu principal destino para criação de conteúdo inovador, entretenimento digital e parcerias criativas. Explore nosso portfólio de projetos inspiradores.",
@@ -37,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://studioviews.com.br",
+    url: "https://acasaviews.freelandoo.com.br",
     siteName: "Studio Views",
     title: "Studio Views | Hub Criativo de Conteúdo e Entretenimento",
     description: "Descubra inovação em criação de conteúdo e parcerias de entretenimento digital com a Studio Views.",
