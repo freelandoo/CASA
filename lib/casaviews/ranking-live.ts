@@ -10,7 +10,7 @@ import type { AudienceEntry, ParticipantEntry } from "./ranking-data"
 // URL do backend de ranking (Railway). Configurável por env pra trocar de
 // serviço sem mexer no código — basta setar RANKING_API_URL no Vercel.
 const RANKING_API = `${
-  process.env.RANKING_API_URL ?? "https://views-ranking-v1-production.up.railway.app"
+  process.env.RANKING_API_URL ?? "https://casa-views-ranking-production.up.railway.app"
 }/users`
 
 interface RawUser {

@@ -4,7 +4,8 @@ export async function GET() {
   try {
     console.log('[v0] API Route: Fetching rankings from Railway...')
     
-    const response = await fetch('https://views-ranking-v1-production.up.railway.app/users', {
+    const base = process.env.RANKING_API_URL ?? 'https://casa-views-ranking-production.up.railway.app'
+    const response = await fetch(`${base}/users`, {
       method: 'GET',
       headers: {
         'Accept': 'application/json',
